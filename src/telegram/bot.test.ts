@@ -540,7 +540,6 @@ describe("createTelegramBot", () => {
         text: "authorized group",
         date: 1736380800,
       },
-      me: { username: "clawdbot_bot" },
       getFile: async () => ({ download: async () => new Uint8Array() }),
     });
 
@@ -568,7 +567,6 @@ describe("createTelegramBot", () => {
         text: "any group",
         date: 1736380800,
       },
-      me: { username: "clawdbot_bot" },
       getFile: async () => ({ download: async () => new Uint8Array() }),
     });
 
@@ -596,7 +594,6 @@ describe("createTelegramBot", () => {
         text: "prefixed group",
         date: 1736380800,
       },
-      me: { username: "clawdbot_bot" },
       getFile: async () => ({ download: async () => new Uint8Array() }),
     });
 
